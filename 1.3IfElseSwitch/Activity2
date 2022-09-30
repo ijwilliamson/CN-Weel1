@@ -1,0 +1,18 @@
+//If Else Switch Activity 2
+
+let topping = "onions";
+switch (topping)
+{
+    case "mushrooms":
+        console.log("I don't mind having mushrooms");
+        break;
+    case "onions":
+        console.log(`I do not like ${topping} on my pizza`);
+        break;
+    case "perperoni":
+        console.log("I love peperoni on my pizza");
+         break;
+    default:
+        console.log("I didn't expect you to ask about that topping.");
+}
+

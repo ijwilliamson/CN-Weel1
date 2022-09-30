@@ -1,0 +1,11 @@
+//If Else Switch Activity 7
+
+let str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
+for (let s=str.length-1; s>=0; s-- ){
+    let checkchar = str.charAt(s);
+    if (checkchar=='a' || checkchar=='e' || checkchar=='i' || checkchar=='o' || checkchar=='u'){
+        console.log(`The last vowel in the string is ${checkchar} at position ${s} `);
+        break;
+    }
+}
+

@@ -1,0 +1,4 @@
+//If Else Switch Activity 3
+
+let password = "testing";
+(password.length <8) ? console.log("Your password is too short") : console.log(password); 

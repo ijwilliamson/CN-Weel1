@@ -1,0 +1,7 @@
+//Even Number Check Function
+function IsEven(number){
+    if (number%2)
+     {return false; }
+     else
+      {return true;}
+}

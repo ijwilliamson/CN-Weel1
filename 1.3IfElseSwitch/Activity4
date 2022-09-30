@@ -1,0 +1,18 @@
+//If Else Switch Activity 4
+
+let num = 20;
+
+if (num%3==0 || num%5==0){
+    if (num%3==0 && num%5==0){
+        console.log("fizz buzz");
+    }
+    else if(num%3==0){
+        console.log("fizz");
+    }
+    else{
+        console.log("buzz");
+    } 
+}
+else{
+    console.log(num);
+}

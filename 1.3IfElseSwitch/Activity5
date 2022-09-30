@@ -1,0 +1,14 @@
+//If Else Switch Activity 5
+
+let num = "2000022";
+let rev = "";
+
+for(let s = num.length-1; s >= 0; s--){
+    rev +=num.charAt(s);
+}
+
+(rev == num) ? console.log(`${num} is a Palindrome`) : console.log(`${num} is not a Palindrome`)
+
+
+
+

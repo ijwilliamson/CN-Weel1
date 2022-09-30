@@ -1,0 +1,10 @@
+//If Else Switch Activity 9
+let num1 = 3
+let num2 = 6
+if((num1+num2)%2 == 0){
+    console.log(`The number is even : ${num1+num2}`);
+}
+else
+{
+    console.log(`The number is odd so multiplied together equal : ${num1*num2}`);
+}

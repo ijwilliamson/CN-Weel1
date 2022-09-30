@@ -1,0 +1,8 @@
+//If Else Switch Activity 8
+let word = "mistym";
+if (word.charAt(0) == word.charAt(word.length-1)){
+    console.log("The first and last letter of the word match");
+}
+else{
+    console.log("The first and last letter are not the same");
+}

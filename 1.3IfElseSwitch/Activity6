@@ -1,0 +1,17 @@
+//If Else Switch Activity 6
+let time = 18;
+let placeOfWork =  "Rawtenstall"
+let townOfHome = "Rossendale"
+
+if (time > 18 || time <= 7){
+    console.log(`I am at home in ${townOfHome}`);
+}
+else if (time > 7 && time < 9){
+    console.log("I am travelling to work");
+}
+else if (time >= 9 && time<=17){
+    console.log(`I am at work in ${placeOfWork}`);
+}
+else{
+    console.log("I am travelling home");
+}
